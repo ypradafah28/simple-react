@@ -1,12 +1,18 @@
 import Navbar from "./components/navbar";
-
+import ListTujuan from "./components/ListTujuan";
 function App() {
+  
   return (
-    <header>
-      <nav>
-        <Navbar />
-      </nav>
-    </header>
+    <section>
+      <header>
+        <nav>
+          <Navbar />
+        </nav>
+      </header>
+      <section>
+        <ListTujuan />
+      </section>
+    </section>
   );
 }
 

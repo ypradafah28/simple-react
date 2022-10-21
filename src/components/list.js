@@ -1,15 +1,15 @@
 import React from 'react'
 import '../index.css';
 
-
-function list() {
+function list(props) {
+    
     return (
         <section>
             <ul className='flex'>
-                <li><a className='cursor-pointer hover:text-white text-slate-200 font-sans text-base px-3'>Home</a></li>
-                <li><a className='cursor-pointer hover:text-white text-slate-200 font-sans text-base px-3'>About Me</a></li>
-                <li><a className='cursor-pointer hover:text-white text-slate-200 font-sans text-base px-3'>Portfolio</a></li>
-                <li><a className='cursor-pointer hover:text-white text-slate-200 font-sans text-base px-3'>Contact</a></li>
+                <li><a className='cursor-pointer hover:text-white text-slate-700 font-sans text-base px-3'>{props.list1}</a></li>
+                <li><a className='cursor-pointer hover:text-white text-slate-700 font-sans text-base px-3'>{props.list2}</a></li>
+                <li><a className='cursor-pointer hover:text-white text-slate-700 font-sans text-base px-3'>{props.list3}</a></li>
+                <li><a className='cursor-pointer hover:text-white text-slate-700 font-sans text-base px-3'>{props.list4}</a></li>
             </ul>
         </section>
     )
