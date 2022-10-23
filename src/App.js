@@ -1,7 +1,7 @@
 import Navbar from "./components/navbar";
-import ListTujuan from "./components/ListTujuan";
+import Hero from "./components/hero";
 function App() {
-  
+
   return (
     <section>
       <header>
@@ -10,7 +10,7 @@ function App() {
         </nav>
       </header>
       <section>
-        <ListTujuan />
+        <Hero />
       </section>
     </section>
   );
