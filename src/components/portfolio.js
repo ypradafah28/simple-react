@@ -24,7 +24,7 @@ function Portfolio() {
                     <Button button={button} />
                 </section>
             </section>
-            <section className='py-40'>
+            <section className='py-28'>
                 <figure className='flex justify-center py-5'>
                     <img src='/porto.png' alt='porto' />
                 </figure>
