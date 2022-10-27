@@ -1,14 +1,22 @@
 import Navbar from "./components/navbar";
 import Hero from "./components/hero";
 import Aboutme from "./components/aboutme";
-import { library } from '@fortawesome/fontawesome-svg-core'
 import Skill from "./components/skill";
 import Portfolio from "./components/portfolio";
 import Contact from "./components/contact";
+import { useRef } from 'react'
 
 function App() {
 
-  library.add()
+  const linkHead = useRef(null)
+
+  const scroll = (ref) => {
+    window.scrollTo({
+      top: ref.offsetTop,
+      left: 0,
+      behavior: 'smooth'
+    })
+  }
   return (
     <section>
       <header>

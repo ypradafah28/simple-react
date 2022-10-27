@@ -47,7 +47,7 @@ function Contact() {
                 <form className='flex flex-col'>
                     <input type="textarea" className="my-3 mx-3 px-2 py-2 rounded-sm h-20 w-[28.5rem]" placeholder='Your Message' />
 
-                    <a className='bg-rose-400 rounded-sm w-[12.25rem] text-center py-4 px-10 ml-[17rem]' href='/#'>Send Message</a>
+                    <a className='bg-rose-500 rounded-sm w-[12.25rem] text-center py-4 px-10 ml-[17rem] text-white' href='/#'>Send Message</a>
                 </form>
             </section>
         </div>

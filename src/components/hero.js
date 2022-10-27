@@ -16,6 +16,9 @@ function Hero() {
             <figure>
                 <img className='translate ease-in-out duration-700 delay-300 hover:-translatey-y-2 hover:scale-110' src='/profile.png' width={650}  alt='logo profil'/>
             </figure>
+            <figure className='absolute z-10 left-52 top-20 w-[52rem] translate ease-in-out duration-300 delay-150 hover:-translate-y-3'>
+                <img src='/grup.png' alt='bg' />
+            </figure>
         </div>
     )
 }

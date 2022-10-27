@@ -24,14 +24,14 @@ function Skill() {
     return (
         <div className='py-10'>
             <section className='flex justify-center gap-10 my-10'>
-                <section className='bg-green-200 px-5 py-2 w-[34rem] h-60'>
+                <section className='bg-green-200 px-5 py-2 w-[34rem] h-60 drop-shadow-xl rounded-md'>
                     <figure className='py-2 pb-10'>
                         <FontAwesomeIcon icon={faMagnifyingGlass} className="text-rose-400 w-20 h-20" />
                     </figure>
                     <Teksskill namaSkill={namaSkill1} />
                     <Teksskill teksSkill={deskripsiSkill1} />
                 </section>
-                <section className='bg-green-200 px-5 py-2 w-[34rem] h-60'>
+                <section className='bg-green-200 px-5 py-2 w-[34rem] h-60 drop-shadow-xl rounded-md'>
                     <figure className='py-2 pb-10'>
                         <FontAwesomeIcon icon={faCode} className="text-rose-400 w-20 h-20" />
                     </figure>
@@ -40,14 +40,14 @@ function Skill() {
                 </section>
             </section>
             <section className='flex justify-center gap-10 my-10'>
-                <section className='bg-green-200 px-5 py-2 w-[34rem] h-60'>
+                <section className='bg-green-200 px-5 py-2 w-[34rem] h-60 drop-shadow-xl rounded-md'>
                     <figure className='py-2 pb-10'>
                         <FontAwesomeIcon icon={faLaptop} className="text-rose-400 w-20 h-20" />
                     </figure>
                     <Teksskill namaSkill={namaSkill3} />
                     <Teksskill teksSkill={deskripsiSkill3} />
                 </section>
-                <section className='bg-green-200 px-5 py-2 w-[34rem] h-60'>
+                <section className='bg-green-200 px-5 py-2 w-[34rem] h-60 drop-shadow-xl rounded-md'>
                     <figure className='py-2 pb-10'>
                         <FontAwesomeIcon icon={faPencil} className="text-rose-400 w-20 h-20" />
                     </figure>
