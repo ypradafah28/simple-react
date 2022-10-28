@@ -41,13 +41,13 @@ function Contact() {
             </section>
             <section className='mr-10 mt-20'>
                 <form className='flex'>
-                    <input type="text" className='mx-3 h-12 px-2 py-2 rounded-sm' placeholder='Name' />
-                    <input type="email" className='mx-3 px-2 rounded-sm' placeholder="Email" />
+                    <input type="text" className='mx-1 ml-3 h-12 px-3 w-60 py-2 rounded-sm focus:ring-rose-400 focus:ring-2 outline-none' placeholder='Name' />
+                    <input type="email" className='mx-1 px-3 w-56 rounded-sm focus:ring-rose-400 focus:ring-2 outline-none' placeholder="Email" />
                 </form>
                 <form className='flex flex-col'>
-                    <input type="textarea" className="my-3 mx-3 px-2 py-2 rounded-sm h-20 w-[28.5rem]" placeholder='Your Message' />
+                    <input type="textarea" className="my-3 mx-3 px-2 py-2 rounded-sm h-32 w-[29.5rem] focus:ring-rose-400 focus:ring-2 outline-none" placeholder='Your Message' />
 
-                    <a className='bg-rose-500 rounded-sm w-[12.25rem] text-center py-4 px-10 ml-[17rem] text-white' href='/#'>Send Message</a>
+                    <a className='bg-rose-500 rounded-sm w-[13.25rem] text-center py-4 px-10 ml-[17rem] text-slate-300 hover:text-white hover:bg-rose-600 duration-300 delay-300' href='/#'>Send Message</a>
                 </form>
             </section>
         </div>

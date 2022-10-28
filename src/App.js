@@ -4,19 +4,8 @@ import Aboutme from "./components/aboutme";
 import Skill from "./components/skill";
 import Portfolio from "./components/portfolio";
 import Contact from "./components/contact";
-import { useRef } from 'react'
 
 function App() {
-
-  const linkHead = useRef(null)
-
-  const scroll = (ref) => {
-    window.scrollTo({
-      top: ref.offsetTop,
-      left: 0,
-      behavior: 'smooth'
-    })
-  }
   return (
     <section>
       <header>

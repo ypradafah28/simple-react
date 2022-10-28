@@ -17,7 +17,7 @@ function Portfolio() {
                     <img src='/porto.png' alt='porto' />
                 </figure>
                 <section className='ml-[8.5rem] py-2 pb-3'>
-                    <a href='/#' className='underline text-rose-400 font-semibold'>Lorem ipsum</a>
+                    <a href='/#' className='underline text-rose-400 font-semibold hover:text-rose-600'>Lorem ipsum</a>
                 </section>
                 <section className='ml-[8.5rem]'>
 
@@ -29,7 +29,7 @@ function Portfolio() {
                     <img src='/porto.png' alt='porto' />
                 </figure>
                 <section className='ml-[8.5rem] py-2 pb-3'>
-                    <a href='/#' className='underline text-rose-400 font-semibold'>Lorem ipsum</a>
+                    <a href='/#' className='underline text-rose-400 font-semibold hover:text-rose-600'>Lorem ipsum</a>
                 </section>
                 <section className='ml-[8.5rem]'>
                     <Button button={button} />
